@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+nav {
+    background-color: #252525;
+}
+
+.navtop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Menu {
+    display: flex;
+}
+
+.Menu li {
+    list-style: none;
+    margin: 1rem;
+    font-family: "Kodchasan", serif;
+    transition-duration: 0.4s;
+    text-align: center;
+}
+
+.Menu li:hover {
+    width: 100%;
+    background-color: #00A86B;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    font-family: "Kodchasan", serif;
+    padding: 5px;
+    border-radius: 4px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.DESCRIPTION {
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+hr {
+    border: 3px solid #00A86B;
+    margin: auto;
+}
+
+.Xenelogo img{
+    text-align: center;
+    padding-top: 10px;
+    width: 140px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .navtop {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .Xenelogo {
+        margin-bottom: 10px;
+        margin-top: 20px;
+
+    }
+
+    .Xenelogopic {
+        width: 300px;
+        justify-items: center;
+    }
+
+    .picinmenu {
+        padding: 10px 0;
+        flex-direction: row;
+    }
+
+    .mainmenu {
+        width: 90%;
+        align-items: center;
+        margin: auto;
+    }
+
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+img.MHWlogo {
+    align-items: center;
+    margin: auto;
+    width: 200px;
+}
+
+body {
+    font-family: "Kodchasan", serif;
+    background-color: #5f5f5f;
+    background-image: url(/รูป/MHWBG.avif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mainicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.mainicon img{
+    width: 200px;
+}
+
+.maincontainer {
+    background-color: rgba(41, 41, 41, 0.8);
+    width: 90%;
+    justify-self: center;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.subcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.button {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 50px;
+    display: inline-block;
+    transition-duration: 0.4s;
+    width: 120px;
+    text-align: center;
+}
+
+.Weaponsbutton {
+    width: 80%;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.p {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+    text-align: middle;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.beforfooter {
+    padding-bottom: 50px;
+}
+
+.itemsdetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.Details h1 {
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.Detailspic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -20px;
+    margin: 20px;
+}
+
+.Detailspic a {
+    font-size: 25px;
+}
+.Detailspic img {
+    width: 400px;
+}
+
+.Details p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0px 50px 20px 50px;
+}
+
+.itemsdetailsskill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.itemsdetailsskill img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 100px;
+}
+
+.itemsdetailsEquipment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.itemsdetailsEquipment img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 250px;
+}
+
+.beforend {
+    background-color: #252525;
+    width: 20px;
+}
+
+/* ________________________weapons__________________________ */
+
+.maincontainer2 {
+    background-color: rgba(41, 41, 41, 0.8);
+    width: 90%;
+    justify-self: center;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.HeaderWeapon {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 6px solid #00A86B;
+    border-left: none;
+    border-right: none;
+    border-radius: 1px;
+}
+
+.Weaponspic {
+    width: 400px;
+}
+
+.Weaponscontainerpage {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+    justify-content: center;
+}
+
+.allweapons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.allweapons a {
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Kodchasan", serif;
+}
+
+/* ______________________________________Equipment_______________________________________________________ */
+.maincontainer3 {
+    background-color: rgba(41, 41, 41, 0.8);
+    width: 90%;
+    justify-self: center;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.HeaderMonsters {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 6px solid #00A86B;
+    border-left: none;
+    border-right: none;
+    border-radius: 1px;
+}
+
+.Equipmentpic {
+    width: 200px;
+}
+
+.Equipmentcontainerpage {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+    justify-content: center;
+}
+
+.Armor_Talisman {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.Armor_Talisman a {
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Kodchasan", serif;
+}
+
+.MonstersArmorlist {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Monstername {
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Kodchasan", serif;
+    text-align: center;
+}
+
+.Monstername H1 {
+    font-size: 35px;
+}
+
+.Undermonstername {
+    width: 50%;
+}
+
+.Monstercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.Monsterpic {
+    width: 100px;
+}
+
+.Armorname {
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Kodchasan", serif;
+    text-align: center;
+}
+
+.Armorname h1 {
+    font-size: 20px;
+}
+
+.Armorcontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.RankArmor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    /* font-size: 20px; */
+    flex-direction: row;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.RankArmor a {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    font-family: "Kodchasan", serif;
+}
+
+.Armorpic {
+    width: 300px;
+}
+
+.charms h1 {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 6px solid #00A86B;
+    border-left: none;
+    border-right: none;
+    border-radius: 1px;
+}
+
+.charms h4 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tabletaliman {
+    background-color: #000000;
+    font-size: 40px;
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+.tabletaliman th {
+    background-color: #00A86B;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.tabletaliman td {
+    background-color: #5f5f5f;
+    font-size: 18px;
+    
+}
+
+.thone {
+    width: 20%;
+
+}
+
+.thtwo  {
+    width: 25%;
+    text-align: left;
+    padding: 5px 0px 5px 5px;
+}
+
+.ththree {
+    width: 45%;
+    text-align: left;
+    padding: 5px 0px 5px 5px;
+}
+
+/* ______________________________________Skill_______________________________________________________ */
+.maincontainer4 {
+    background-color: rgba(41, 41, 41, 0.8);
+    width: 90%;
+    justify-self: center;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.SetBonuses_BasicSkills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.SetBonuses_BasicSkills a {
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Kodchasan", serif;
+}
+
+.SetBonuses_BasicSkills img {
+    width: 70px;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Exskill {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Skillcontainer h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.Attackpower td {
+    background-color: #ffbaba;
+    color: #000000;
+    font-weight: 500;
+}
+
+.Resistance td {
+    background-color: #faffb9;
+    color: #000000;
+    font-weight: 500;
+}
+
+.Defense td {
+    background-color: #bebebe;
+    color: #000000;
+    font-weight: 500;
+}
+
+.Health td {
+    background-color: #88ff98;
+    color: #000000;
+    font-weight: 500;
+}
